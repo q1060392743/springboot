@@ -1,0 +1,37 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.example.bean.ConfigBean",
+      "name": "my",
+      "type": "com.example.bean.ConfigBean"
+    },
+    {
+      "sourceType": "com.example.bean.User",
+      "name": "my1",
+      "type": "com.example.bean.User"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.example.bean.ConfigBean",
+      "name": "my.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.bean.ConfigBean",
+      "name": "my.name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.example.bean.User",
+      "name": "my1.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.example.bean.User",
+      "name": "my1.name",
+      "type": "java.lang.String"
+    }
+  ]
+}

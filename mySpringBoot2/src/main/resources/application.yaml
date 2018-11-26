@@ -1,0 +1,34 @@
+server: 
+  port: 9000
+  
+management:
+  port: 8888
+  context-path: /abc
+  security: 
+    enabled: false  
+---
+logging:
+  file: my.log
+  level:
+    root: warn
+    org:
+      springframework:
+        web: debug
+        
+name: jary
+hello: goodevening
+
+---
+spring:
+  profiles:
+    active: hello
+    
+---
+spring:
+  profiles: hello
+name: spring
+
+---
+spring:
+  profiles: goodbye
+name: boot
